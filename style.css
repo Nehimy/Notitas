@@ -1,0 +1,189 @@
+body{
+	background:#7ebc12;
+}
+
+#contenedor1{
+	/*width: 90vw;
+	margin: 0 auto;
+	border-radius: 15px;
+	background: #9abf59!important;
+	position: absolute;
+	text-align: center;
+	left: 0px;
+	right: 0px;*/
+	
+	margin: 0 auto;
+	border-radius: 15px;
+	background: #9abf59 !important;
+	position: relative;
+	text-align: center;
+	left: 0px;
+	right: 0px;
+	padding: 20px 40px;
+
+}
+
+#contenedor2{
+	/*top: 5vh;*/
+	/*width: 75vw;*/
+	/*height: 90vh;*/
+	/*border-radius: 15px;
+	position: relative;
+	margin: 0 auto;
+	background: aliceblue;*/
+	
+	border-radius: 15px;
+	position: relative;
+	margin: 0 auto;
+	background: aliceblue;
+	padding: 10px 0px;
+}
+
+.contenedor3{
+	width: 35vw;
+	border-radius: 5px;
+	margin: 10px auto;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+	background: fff;
+	position: relative;
+	padding: 10px;
+	/*
+	text-overflow: ellipsis;
+	overflow: hidden;
+	*/
+
+}
+
+#titulo{
+	text-decoration: none;
+}
+
+h1{
+	font-family:'Carter One', cursive;
+	color: #5cbf59;
+	margin: 0;
+}
+#NewPost{
+	/*font-size: inherit;*/
+	/*font-weight: bold;*/
+	
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: #5cbf59;
+	padding:4px 9px;
+	border-radius: 5px;
+
+}
+
+#botton{
+	font-family: 'Snappy Dresser', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
+	text-decoration: none;
+	color: #fff;
+	background: #5cbf59;
+	padding: 3px 7px;
+	border-radius: 5px;
+	position: relative;
+	font-size: small;
+}
+
+h3{
+	font-family: 'Snappy Dresser', sans-serif;
+	color: darkorange;
+	margin: 0;
+}
+
+
+h4{
+	font-family: 'Carter One', cursive;
+	color: dimgray;
+	/*white-space: normal !important;
+	overflow: auto !important;
+	text-overflow: unset !important;*/
+}
+
+p{
+	font-family: 'Carter One', cursive;
+	color: dimgray;
+	white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+
+/*********************/
+
+#margin{
+	margin: 2px 0px
+}
+
+#cajaDeText{
+	border: 1.5px solid #d7d7d7;
+	border-radius: 4px;
+}
+
+
+#botton_input{
+	font-family: 'Snappy Dresser', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
+	text-decoration: none;
+	color: #fff;
+	background: #5cbf59;
+	padding: 3px 7px;
+	border-radius: 5px;
+	position: relative;
+	border:0px;
+	margin: 10px;
+}
+
+.contenedor1_form{
+	top: 10vh;
+}
+
+/*contenedor de ver*/
+
+#contenedor1_1{
+	border-radius: 15px;
+	background: #9abf59 !important;
+	text-align: center;
+	margin-top: 10vh;
+	padding: 25px 100px;
+	}
+
+#h1{
+	margin: 0px;
+	}
+@media only screen and (max-width: 600px) {
+  textarea{
+    width: 270px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  textarea{
+    width: 190px;
+  }
+  .contenedor3{
+  	/*padding: 10px;*/
+  	display:flex;
+  	flex-direction: column;
+  }
+  #botton{
+  	margin: 2px;
+		margin: 3px auto;
+  }
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
